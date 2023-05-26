@@ -6,6 +6,7 @@ public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()
 	{
+		
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
@@ -14,7 +15,7 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-        builder.Services.AddSingleton(new AppRepository("App59.db"));
+        builder.Services.AddSingleton(new AppRepository("AppDbb3.db"));
         builder.Services.AddSingleton<EmployerPage>();
         builder.Services.AddSingleton<EmployerTaskPage>();
         builder.Services.AddSingleton<ReportPage>();

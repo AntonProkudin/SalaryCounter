@@ -15,5 +15,6 @@ namespace SalaryCounter.Models
         public DateTime ResultTime { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public bool DR { get; set; } = true;
     }
 }
